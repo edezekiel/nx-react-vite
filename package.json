@@ -2,7 +2,9 @@
   "name": "@nx-react-vite/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test": "npx nx run nx-react-vite:test "
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "11.11.1",
