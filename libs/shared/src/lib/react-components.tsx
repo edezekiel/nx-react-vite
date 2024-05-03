@@ -4,7 +4,9 @@ import styled from '@emotion/styled';
 export interface ReactComponentsProps {}
 
 const StyledReactComponents = styled.div`
-  color: pink;
+  color: purple;
+  text-align: center;
+  margin-top: 15px;
 `;
 
 export function ReactComponents(props: ReactComponentsProps) {
