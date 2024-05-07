@@ -4,9 +4,6 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "exports": {
-    "./package.json": {
-      "default": "./package.json"
-    },
     ".": {
       "types": "./index.d.ts",
       "import": "./index.mjs",
